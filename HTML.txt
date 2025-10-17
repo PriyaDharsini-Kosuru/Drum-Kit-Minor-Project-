@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Drum Kit</h1>
+  <div class="keys">
+    <button class="key" data-key="65">A</button>
+    <button class="key" data-key="83">S</button>
+    <button class="key" data-key="68">D</button>
+    <button class="key" data-key="70">F</button>
+  </div>
+  <audio data-key="65" src="sounds/kick.wav"></audio>
+  <audio data-key="83" src="sounds/snare.wav"></audio>
+  <audio data-key="68" src="sounds/hihat.wav"></audio>
+  <audio data-key="70" src="sounds/tom.wav"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

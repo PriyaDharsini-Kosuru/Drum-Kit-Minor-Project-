@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  font-family: sans-serif;
+}
+.keys {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.key {
+  font-size: 2em;
+  padding: 30px 25px;
+  border: none;
+  background: #444;
+  color: #fff;
+  border-radius: 8px;
+  transition: transform .07s;
+}
+.key.playing {
+  background: #f39c12;
+  transform: scale(1.1);
+}
